@@ -1,0 +1,85 @@
+
+
+/*dropdown*/
+  
+   #navlist{
+    position: absolute;
+      right:0;
+      top:10vh;
+   }
+    #navlist li{
+      display:inline;
+
+    }
+    #norm{
+      text-decoration: none;
+      color:white;
+      font-family: alpha1;
+      font-size:1.6vh; 
+      margin-right: 0.5vw;
+      background-color: transparent;
+      border:none;
+      border-radius: 1vh;
+      padding: 1vh;
+      
+      transition: 0.1s;
+      height:6vh; 
+     
+    }
+    #norm:hover{
+      font-size: 2vh;
+      background-color: white;
+      color:black;
+    }
+/*loading thign*/
+
+#loader {
+  position: relative;
+
+  z-index: 1;
+  width:30vw;
+  top:20vh;
+
+
+  
+}
+
+
+
+
+
+
+#gamma{
+  
+  margin-top: 20vh;
+  font-family: roboto;
+  color:white;
+  font-size:7vh;
+  animation:reveal 3s;
+
+}
+
+@keyframes reveal{
+  0%{opacity: 0;}
+  25%{opacity: 1;}
+  75%{opacity: 1;}
+  100%{opacity: 0;}
+}
+
+#gamma1{
+  
+  margin-top: 20vh;
+  font-family: roboto;
+  color:white;
+  font-size:7vh;
+  animation:revel 2s;
+  animation-delay: 1s;
+
+}
+
+@keyframes revel{
+  0%{opacity: 0;}
+  50%{opacity: 1;}
+  75%{opacity: 1;}
+  100%{opacity: 0;}
+}
